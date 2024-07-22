@@ -1,70 +1,68 @@
-html{
+html {
   box-sizing: border-box;
 }
 
 *,
 *::before,
-*::after{
+*::after {
   box-sizing: inherit;
-} 
+}
 
-body{
+body {
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
-  
-  ul,
-  ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  a {
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  p {
-    margin: 0;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  body {
-    overflow-x: hidden;
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-  }
-  
-  :root {
-    --font-family: "Fraunces 9pt", sans-serif;
-    --second-family: "Barlow", sans-serif;
-    --third-family: "Fraunces", sans-serif;
-  }
-  
-  
-  .container {
-    max-width: 1328px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 24px;
-    padding-right: 24px;
-  }
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+:root {
+  --font-family: "Poppins", sans-serif;
+  --second-family: "Rubik", sans-serif;
+}
+
+.container {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
